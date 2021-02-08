@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body {
+    color: 191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(../my_portfolio/music_notes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+header  {
+    width: 768px;
+    height: 250px;
+    background-image: url(header.jpg);	
+    
+}
+main  {
+    background-color: #0000FF;
+    width: 598px;
+    height: 1600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float:left; 
+}
+footer {
+    width: 768px;
+    height: 600px;
+    background-color: #FFA500;
+    clear: both;
+}
+
+#container {
+	width:768px;
+	height:auto;
+	background-color: white;
+	margin: auto;
+}
+nav a:link {
+    color: #000000;
+	padding:10px; 
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #000000;
+	padding:10px; 
+	border-radius:20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #000000;
+}
+aside {
+    width: 150px;
+    height: 500px;
+    background-color: #FFFF00;
+    float: left;
+}
+
+h1 {
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p {
+    font-size: 14pt;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	color: black;
+}
+h1 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-right: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
