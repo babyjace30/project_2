@@ -19,7 +19,7 @@ header  {
     
 }
 main  {
-    background-color: #0000FF;
+    background-color: #FFFFFF;
     width: 598px;
     height: 1600px;
     float: left;
@@ -75,12 +75,27 @@ nav a:active {
 aside {
     width: 150px;
     height: 500px;
-    background-color: #FFFF00;
+    background-color: #FF0000;
     float: left;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px;
+    box-shadow: 6px 6px 35px 1px;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px;
+    box-shadow: 6px 6px 35px 1px;
 }
 
 h1 {
-    color: black;
+    color: red;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
 }
 h3 {
@@ -119,4 +134,7 @@ nav {
 #container nav ul {
     margin: auto;
     width: 565px;
+}
+article {
+    margin-bottom: 50px;
 }
